@@ -6,12 +6,10 @@ import {
 } from "../../utilities/databaseManager";
 import Cart from "../Cart/Cart";
 import ReviewItem from "../ReviewItem/ReviewItem";
-import happyImage from "../../images/giphy.gif";
 import { Link } from "react-router-dom";
 
 const Review = () => {
   const [cart, setCart] = useState([]);
-  const [orderPlaced, setOrderPlaced] = useState(false);
 
   //removes a product
   const removeProduct = (productKey) => {
