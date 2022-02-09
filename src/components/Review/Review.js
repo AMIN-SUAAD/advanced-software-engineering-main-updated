@@ -46,7 +46,7 @@ const Review = () => {
       <div className="cart-container">
         <Cart cart={cart}>
           <Link to="/info">
-            <button className="mainButton">PlaceOrder</button>
+            <button className="mainButton">Place Order</button>
           </Link>
         </Cart>
       </div>
