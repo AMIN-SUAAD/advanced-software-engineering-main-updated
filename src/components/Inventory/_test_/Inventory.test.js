@@ -1,6 +1,5 @@
 import React from 'react';
 import Inventory from '../Inventory';
-
 import renderer from "react-test-renderer";
 
 it("matches snapshot", () => {
