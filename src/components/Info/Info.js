@@ -49,7 +49,7 @@ const Info = () => {
   };
 
   return (
-    <div style={{ marginLeft: "100px" }}>
+    <div style={{ marginLeft: "100px" }} data-testid="info">
       {!orderPlaced && 
       <div>
       <h4>Please, fill out this form!</h4>
