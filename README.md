@@ -9,10 +9,24 @@ I will discuss now the 11 software engineering points and where you can find the
       2. Back-End Part: https://github.com/AMIN-SUAAD/s-ema-john-simple-server-main
 
    
-2. UML
+2. A UML diagram is a diagram based on the UML (Unified Modeling Language) that is used to visually describe a system, including its major actors, roles, actions, artifacts, or classes, in order to better understand, edit, maintain, or document system information. I made three UML diagrams named class diagram, use case diagram and sequence diagram.
+
+   Class Diagram: 
+   https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/11%20points/2/Class%20Diagram.PNG
+
+   Use Case Diagram:
+   https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/11%20points/2/Use%20Case%20Diagram.PNG
+   
+   Sequence Diagram: 
+   https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/11%20points/2/Sequence%20Diagram.PNG
 
 
-3. DDD
+
+3. Domain-driven design is a software development technique that focuses on modeling software to match a subject based on feedback from experts in that domain. It indicates that the form and language of software code should fit the business domain in terms of object-oriented programming.
+
+   My DDD: 
+   https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/11%20points/3/DDD.PNG
+
 
 
 4. I used SonarCloud. SonarCloud assists in evaluating the health of code and developing applications with clean, secure code. Detect bugs and vulnerabilities and receive immediate feedback. I used SonarCloud for front-end part and back-end part both. Please, have a look at the provided links below:
@@ -96,6 +110,6 @@ I will discuss now the 11 software engineering points and where you can find the
     “handleAddProduct” is an anonymous function as it has no name. 
 
 
-    Additionally, visit the following link for screenshots:
+    Additionally, visit the following link for more details:
 
     https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/tree/main/11%20points
