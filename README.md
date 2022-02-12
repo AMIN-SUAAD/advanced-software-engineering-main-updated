@@ -60,7 +60,7 @@ I will discuss now the 11 software engineering points and where you can find the
    Links of tests: 
 
       1. https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/src/components/Info/_test_/Info.test.js
-      2. https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/tree/main/src/components/Inventory/_test_
+      2. https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/src/components/Inventory/_test_/Inventory.test.js
       3. https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/src/components/NotFound/_test_/NotFound.test.js
       4. https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/src/App.test.js
 
