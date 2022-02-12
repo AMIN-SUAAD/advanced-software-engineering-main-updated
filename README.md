@@ -97,6 +97,9 @@ I will discuss now the 11 software engineering points and where you can find the
 10.  A domain-specific language cleverly employs the features and syntax of a programming language to make completing a given task appear to have first-class support from the programming language itself. I made a DSL that converts arrays to HTML. Please, visit:
 
      https://github.com/AMIN-SUAAD/Additional-files-for-Advanced-Software-Engineering/blob/main/Dsl.js
+     
+     I also wrote an example code for email validation check. My initial plan was to integrate validation in my website but for time limitation I could not. I used regular            expression to check the validity of a provided email address by user. Please, visit: 
+     https://github.com/AMIN-SUAAD/Additional-files-for-Advanced-Software-Engineering/blob/main/Validation.js
 
 
 11. Most of my functions are side effect free.
