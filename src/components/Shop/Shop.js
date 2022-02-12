@@ -37,7 +37,7 @@ const Shop = () => {
             product.quantity = 1;
             newCart = [...cart, product];
         }
-        
+
         setCart(newCart);
         addToDatabaseCart(product.key, count);
     }
@@ -58,7 +58,7 @@ const Shop = () => {
             <div className="cart-container">
                 <Cart cart={cart}>
                     <Link to="/review">
-                        <button className="mainButton">ReviewOrder</button>
+                        <button className="mainButton">Review Order</button>
                     </Link>
                 </Cart>
             </div>
