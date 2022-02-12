@@ -5,8 +5,8 @@ I will discuss now the 11 software engineering points and where you can find the
 
 1. I used GitHub to store my front-end and back-end part of the code. I also used GitHub action for continuous delivery.
 
-   Front-End Part: https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated
-   Back-End Part: https://github.com/AMIN-SUAAD/s-ema-john-simple-server-main
+Front-End Part: https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated
+Back-End Part: https://github.com/AMIN-SUAAD/s-ema-john-simple-server-main
 
    
 2. UML
@@ -17,8 +17,8 @@ I will discuss now the 11 software engineering points and where you can find the
 
 4. I used SonarCloud. SonarCloud assists in evaluating the health of code and developing applications with clean, secure code. Detect bugs and vulnerabilities and receive immediate feedback. I used SonarCloud for front-end part and back-end part both. Please, have a look at the provided links below:
 
-  Front-End: https://sonarcloud.io/project/overview?id=AMIN-SUAAD_s-ema-john-simple-main-updated
-  Back-End: https://sonarcloud.io/project/overview?id=AMIN-SUAAD_s-ema-john-simple-server-main
+Front-End: https://sonarcloud.io/project/overview?id=AMIN-SUAAD_s-ema-john-simple-main-updated
+Back-End: https://sonarcloud.io/project/overview?id=AMIN-SUAAD_s-ema-john-simple-server-main
 
 
 5. I tried to follow the standards of clean code. 
