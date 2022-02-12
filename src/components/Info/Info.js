@@ -9,6 +9,7 @@ const Info = () => {
   const [address, setAddress] = useState("");
   const [orderPlaced, setOrderPlaced] = useState(false);
 
+  //get data from local storage
   useEffect(() => {
     const savedCart = getDatabaseCart();
     const productKeys = Object.keys(savedCart);
@@ -22,6 +23,7 @@ const Info = () => {
     setCart(cartProducts);
   }, []);
 
+  //handling submission
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -50,45 +52,45 @@ const Info = () => {
 
   return (
     <div style={{ marginLeft: "100px" }} data-testid="info">
-      {!orderPlaced && 
-      <div>
-      <h4>Please, fill out this form!</h4>
-      <form onSubmit={handleSubmit}>
-        <input
-          required
-          type="text"
-          name="Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          onBlur={(e) => setName(e.target.value)}
-          placeholder="Name"
-        />
-        <br />
-        <input
-          required
-          type="text"
-          name="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          onBlur={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-        />
-        <br />
-        <input
-          required
-          style={{ width: "500px" }}
-          name="Address"
-          type="text"
-          value={address}
-          onChange={(e) => setAddress(e.target.value)}
-          onBlur={(e) => setAddress(e.target.value)}
-          placeholder="Address"
-        />
-        <br />
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
-      </div>
+      {!orderPlaced &&
+        <div>
+          <h4>Please, fill out this form!</h4>
+          <form onSubmit={handleSubmit}>
+            <input
+              required
+              type="text"
+              name="Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              onBlur={(e) => setName(e.target.value)}
+              placeholder="Name"
+            />
+            <br />
+            <input
+              required
+              type="text"
+              name="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onBlur={(e) => setEmail(e.target.value)}
+              placeholder="Email"
+            />
+            <br />
+            <input
+              required
+              style={{ width: "500px" }}
+              name="Address"
+              type="text"
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              onBlur={(e) => setAddress(e.target.value)}
+              placeholder="Address"
+            />
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       }
       {
         orderPlaced && <h4>Order Successful!</h4>

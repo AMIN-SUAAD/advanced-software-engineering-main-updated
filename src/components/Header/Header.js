@@ -12,7 +12,6 @@ const Header = () => {
                 <a href="/inventory">Manage Inventory</a>
             </nav>
         </div>
-
     );
 };
 

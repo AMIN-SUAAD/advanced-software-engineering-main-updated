@@ -18,6 +18,7 @@ const Review = () => {
     removeFromDatabaseCart(productKey);
   };
 
+  //get data from local storage
   useEffect(() => {
     const savedCart = getDatabaseCart();
     const productKeys = Object.keys(savedCart);

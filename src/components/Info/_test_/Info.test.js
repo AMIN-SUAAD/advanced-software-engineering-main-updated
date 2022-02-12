@@ -1,6 +1,5 @@
 import React from 'react';
 import Info from '../Info';
-
 import {render} from '@testing-library/react';
 
 it("renders Info correctly", () => {
