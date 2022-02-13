@@ -76,7 +76,7 @@ I will discuss now the 11 software engineering points and where you can find the
    https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/tree/main/.github/workflows
 
    I used Heroku for the continuous delivery of the back-end part. Please visit: 
-   https://github.com/AMIN-SUAAD/s-ema-john-simple-main-updated/blob/main/11%20points/8/4.PNG
+   https://dashboard.heroku.com/apps/afternoon-anchorage-04509/deploy/github
 
 
 9. I used VS Code. 
